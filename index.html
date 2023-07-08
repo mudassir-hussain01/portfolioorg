@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      min-width: 375px;
+      
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .intro img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .intro h2 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .intro p {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .portfolio-item {
+      flex: 0 0 250px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      border-radius: 5px;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .portfolio-item .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: relative;
+      top: -150px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .portfolio-item:hover .overlay {
+      opacity: 1;
+    }
+
+    .portfolio-item .overlay-content {
+      text-align: center;
+    }
+
+    .portfolio-item .overlay-content h3 {
+      color: #fff;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .portfolio-item .overlay-content p {
+      color: #fff;
+      margin: 5px 0 0 0;
+    }
+  
+    
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  height: 150px;
+  height: 200px;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <div class="container">
+    <div class="intro">
+      <img src="Snapchat-826221965.jpg" alt="Profile Picture">
+      <h2>Hello, Mudassir</h2>
+      <p>A Frontend web developer</p>
+    </div>
+    <div class="discription">
+        <p>
+            Am a good fronted developer. Am design a bulits websites. Am typically responsible for the appearance, of the sites and techniqual aspects. Am create a site content that require techniqual features. Am also a good programmer. 
+        </p>
+    </div>
+
+    <h2>My Work</h2>
+    <a href="https://mudassir-hussain01.github.io/Project-1-html-css">My project QR code</a>
+    <div class="portfolio">
+      <div class="portfolio-item">
+        <img src="maxresdefault.jpg" alt="Project 1">
+        <div class="overlay">
+          <div class="overlay-content">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="front-end-web-development-skills.png" alt="Project 2">
+        <div class="overlay">
+          <div class="overlay-content">
+          </div>
+        </div>
+        </div>
+      </div>
+      
+<div class="footer">
+  <p>Google</p>
+  <p><a href="mailto:hege@example.com">https://www.google.com/</a></p>
+  <p>Fcaebook</p>
+  <p><a href="mailto:hege@example.com">facebook.com</a></p>
+  <p>instagram</p>
+  <p><a href="mailto:hege@example.com">https://www.instagram.com/</a></p>
+</div>
+    </div>
+  </div>
+</body>
+</html>
